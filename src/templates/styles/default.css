@@ -1,3 +1,20 @@
+body {
+  background: url(../../images/bg-80s.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+  background-color: #cccccc;
+  color: white !important;
+ }
+ 
+ a:link {
+   color: blue !important;
+ }
+ 
+ a:active {
+   color: blue !important;
+ }
 @charset "UTF-8";
 /* ==========================================================================
    Styling and layout for all media
