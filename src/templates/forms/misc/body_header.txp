@@ -25,7 +25,7 @@
             </txp:if_status>
         </txp:section_list>
 
-        <!-- links by default to form: 'search_input.txp' unless you specify a different form -->
-        <txp:search_input />
+        <!-- links by default to form: 'search_input.txp' unless you specify a different form 
+        <txp:search_input /> -->
     </div>
 </nav>
