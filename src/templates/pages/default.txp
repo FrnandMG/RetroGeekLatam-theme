@@ -48,6 +48,7 @@
     <txp:feed_link flavor="rss" format="link" label="RSS" />
 </head>
 
+<body>
 <txp:if_variable name="front-page">
     <body class="front-page" itemscope itemtype="https://schema.org/WebPage">
 <txp:else />
