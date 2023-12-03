@@ -48,9 +48,12 @@
     <txp:feed_link flavor="rss" format="link" label="RSS" />
 </head>
 
-<body>
+
 <txp:if_variable name="front-page">
-    <body class="front-page" itemscope itemtype="https://schema.org/WebPage">
+
+
+<body class="front-page" itemscope itemtype="https://schema.org/WebPage">
+
 <txp:else />
     <txp:if_search>
         <body class="search-page" itemscope itemtype="https://schema.org/SearchResultsPage">
@@ -67,14 +70,14 @@
             <!-- Main content -->
             <main id="main" aria-label="<txp:text item="main_content" />" itemscope itemtype="https://schema.org/Blog">
 
-                <!-- is this the search result page? also omits the pagination links below (uses pagination format within search_display.txp instead) -->
+                <!-- is this the search result page? also omits the pagination links below (uses pagination format within search_display.txp instead) 
                 <txp:if_search>
                     <txp:output_form form="search_display" />
 
                 <txp:else />
-                    <!-- else is this the front page? -->
+                    
                     <txp:if_variable name="front-page">
-                        <!-- links by default to form: 'default.txp' unless you specify a different form -->
+                        links by default to form: 'default.txp' unless you specify a different form -->
                         <txp:article limit="5" />
 
                     <txp:else />
