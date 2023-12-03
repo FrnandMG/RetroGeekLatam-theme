@@ -55,11 +55,7 @@
 <body class="front-page" itemscope itemtype="https://schema.org/WebPage">
 
 <txp:else />
-    <txp:if_search>
-        <body class="search-page" itemscope itemtype="https://schema.org/SearchResultsPage">
-    <txp:else />
-        <body class="listing-page" itemscope itemtype="https://schema.org/CollectionPage">
-    </txp:if_search>
+
 </txp:if_variable>
 
     <txp:output_form form="body_header" />
