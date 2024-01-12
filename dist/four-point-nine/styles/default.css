@@ -41,14 +41,9 @@ nav ol::after,
 /* ==========================================================================
    Styling and layout for screen media (mobile first)
    ========================================================================== */
-   @font-face {
+  @font-face {
     font-family: 'retro_computer_personal_use';
-    src: url('fonts/retro_computer_personal_use.eot');
-    src: url('fonts/retro_computer_personal_use.eot') format('embedded-opentype'),
-         url('fonts/retro_computer_personal_use.woff2') format('woff2'),
-         url('fonts/retro_computer_personal_use.woff') format('woff'),
-         url('fonts/retro_computer_personal_use.ttf') format('truetype'),
-         url('fonts/retro_computer_personal_use.svg#retro_computer_personal_use') format('svg');
+    src: url('https://blog.retrogeek.lat/file_download/10/retro_computer_personal_use.eot');
   }
 
    @media screen {
