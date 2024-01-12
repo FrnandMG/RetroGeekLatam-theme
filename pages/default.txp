@@ -5,11 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <title><txp:page_title /></title>
+		
+   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+   <link rel="manifest" href="/site.webmanifest">
+   <meta name="msapplication-TileColor" content="#da532c">
+   <meta name="theme-color" content="#ffffff">
 
     <!-- CSS -->
     <txp:css format="link" media="" />
-    <!-- ...or you can use (faster) external CSS files e.g. -->
-    <link rel="stylesheet" href="<txp:page_url type="theme_path" />/styles/default.css"> 
+    <!-- ...or you can use (faster) external CSS files e.g. --> <link rel="stylesheet" href="<txp:page_url type="theme_path" />/styles/default.css"> 
 
     <meta name="generator" content="Textpattern CMS">
 
@@ -47,6 +53,86 @@
     <!-- content feeds -->
     <txp:feed_link flavor="atom" format="link" label="Atom" />
     <txp:feed_link flavor="rss" format="link" label="RSS" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:opsz,wght@8..144,200&display=swap" rel="stylesheet">
+<style>
+
+  body {
+    background: url(https://blog.retrogeek.lat/file_download/9/bg2.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #cccccc;  
+    color: #FFFFFF !important;
+    font-family: 'Rajdhani', sans-serif !important;
+  }
+
+a:link {
+	color: #a1fc03 !important;
+}
+/* visited link */
+a:visited {
+	color: #a1fc03  !important;
+}
+/* mouse over link */
+a:hover {
+	color: #a1fc03  !important;
+}
+/* selected link */
+a:active {
+	color: #a1fc03  !important;
+}
+
+  .wrapper {
+    padding: 1px 0;
+    border-bottom: 1px solid #cccccc;
+    background: transparent !important;
+  }
+
+  #main h1 {
+    color: #FFFFFF !important;
+  }
+
+  .site-header h2 a {
+   color: #FFFFFF !important;
+  }
+
+  .site-header h3 {
+   color: #FFFFFF !important;
+  }
+
+  #navigation {
+   color: #FFFFFF !important;
+   background-color: transparent;
+   border: none !important;
+  }
+
+  .section_list {
+    background-color: rgba(255,255,255,0.5);
+  }
+
+  ul.section_list  {
+     background-color: rgba(255,255,255,0.5);
+  }
+  ul.section_list li {
+   background-color: rgba(255,255,255,0.5);
+  }
+
+  ul.section_list li a {
+   color: #000000 !important;
+  }
+  .footnote {
+   color: #FFFFFF !important;
+  }
+
+  section h4 {
+   color: #FFFFFF !important;
+  }
+
+  </style>
 </head>
 
 <txp:if_variable name="front-page">
