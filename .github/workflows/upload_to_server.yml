@@ -14,5 +14,5 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.SHHKEY }}
         port: ${{ secrets.PORT }}
-        source: ${{ steps.changed-files.outputs.all_changed_files }}
-        target: /www/wwwroot/blog.retrogeek.lat/themess
+        source: .
+        target: /www/wwwroot/blog.retrogeek.lat/themes
