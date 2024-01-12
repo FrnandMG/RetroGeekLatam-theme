@@ -7,10 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - name: Remove Files
-      uses: JesseTG/rm@v1.0.3
-      with:
-        path: /www/wwwroot/blog.retrogeek.lat/themes/RetroGeekLatam
     - name: copy file via ssh 
       uses: appleboy/scp-action@v0.1.7
       with:
