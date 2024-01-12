@@ -15,4 +15,4 @@ jobs:
         key: ${{ secrets.SSHKEY }}
         port: ${{ secrets.PORT }}
         source: .
-        target: /www/wwwroot/blog.retrogeek.lat/themes
+        target: /www/wwwroot/blog.retrogeek.lat/themes/default
